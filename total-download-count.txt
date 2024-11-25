@@ -1,0 +1,37 @@
+Command executed:
+for i in {0..15}; do curl -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.22.$i" | jq ".assets[] | {name: .name, download_count: .download_count, version: \"v1.22.$i\"}"; done
+
+Release: v1.22.0
+Downloads for v1.22.0: 2118
+Release: v1.22.1
+Downloads for v1.22.1: 2371
+Release: v1.22.2
+Downloads for v1.22.2: 2566
+Release: v1.22.3
+Downloads for v1.22.3: 2098
+Release: v1.22.4
+Downloads for v1.22.4: 2111
+Release: v1.22.5
+Downloads for v1.22.5: 1685
+Release: v1.22.6
+Downloads for v1.22.6: 653
+Release: v1.22.7
+Downloads for v1.22.7: 937
+Release: v1.22.8
+Downloads for v1.22.8: 1635
+Release: v1.22.9
+Downloads for v1.22.9: 1934
+Release: v1.22.10
+Downloads for v1.22.10: 2111
+Release: v1.22.11
+Downloads for v1.22.11: 1703
+Release: v1.22.12
+Downloads for v1.22.12: 1259
+Release: v1.22.13
+Downloads for v1.22.13: 613
+Release: v1.22.14
+Downloads for v1.22.14: 66
+Release: v1.22.15
+Downloads for v1.22.15: 746
+
+Total Downloads for v1.22.0 to v1.22.15: 24606
