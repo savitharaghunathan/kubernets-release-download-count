@@ -4,7 +4,7 @@
 GITHUB_TOKEN="YOUR_GITHUB_TOKEN"
 
 # Output file
-OUTPUT_FILE="kubernetes_download_counts_debug.txt"
+OUTPUT_FILE="kubernetes_download_counts.txt"
 
 # Initialize total download counters for each release version
 total_downloads_122=0
