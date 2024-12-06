@@ -1,37 +1,198 @@
-Command executed:
-for i in {0..15}; do curl -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.22.$i" | jq ".assets[] | {name: .name, download_count: .download_count, version: \"v1.22.$i\"}"; done
-
+Commands executed:
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.22.0"
 Release: v1.22.0
-Downloads for v1.22.0: 2118
+Downloads for v1.22.0: 2122
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.22.1"
 Release: v1.22.1
 Downloads for v1.22.1: 2371
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.22.2"
 Release: v1.22.2
-Downloads for v1.22.2: 2566
+Downloads for v1.22.2: 2567
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.22.3"
 Release: v1.22.3
 Downloads for v1.22.3: 2098
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.22.4"
 Release: v1.22.4
 Downloads for v1.22.4: 2111
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.22.5"
 Release: v1.22.5
 Downloads for v1.22.5: 1685
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.22.6"
 Release: v1.22.6
 Downloads for v1.22.6: 653
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.22.7"
 Release: v1.22.7
 Downloads for v1.22.7: 937
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.22.8"
 Release: v1.22.8
 Downloads for v1.22.8: 1635
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.22.9"
 Release: v1.22.9
 Downloads for v1.22.9: 1934
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.22.10"
 Release: v1.22.10
-Downloads for v1.22.10: 2111
+Downloads for v1.22.10: 2112
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.22.11"
 Release: v1.22.11
 Downloads for v1.22.11: 1703
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.22.12"
 Release: v1.22.12
 Downloads for v1.22.12: 1259
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.22.13"
 Release: v1.22.13
 Downloads for v1.22.13: 613
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.22.14"
 Release: v1.22.14
 Downloads for v1.22.14: 66
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.22.15"
 Release: v1.22.15
 Downloads for v1.22.15: 746
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.21.0"
+Release: v1.21.0
+Downloads for v1.21.0: 2211
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.21.1"
+Release: v1.21.1
+Downloads for v1.21.1: 1666
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.21.2"
+Release: v1.21.2
+Downloads for v1.21.2: 1499
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.21.3"
+Release: v1.21.3
+Downloads for v1.21.3: 2042
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.21.4"
+Release: v1.21.4
+Downloads for v1.21.4: 2328
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.21.5"
+Release: v1.21.5
+Downloads for v1.21.5: 2197
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.21.6"
+Release: v1.21.6
+Downloads for v1.21.6: 1859
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.21.7"
+Release: v1.21.7
+Downloads for v1.21.7: 1821
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.21.8"
+Release: v1.21.8
+Downloads for v1.21.8: 977
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.21.9"
+Release: v1.21.9
+Downloads for v1.21.9: 925
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.21.10"
+Release: v1.21.10
+Downloads for v1.21.10: 979
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.21.11"
+Release: v1.21.11
+Downloads for v1.21.11: 1187
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.21.12"
+Release: v1.21.12
+Downloads for v1.21.12: 1883
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.21.13"
+Release: v1.21.13
+Downloads for v1.21.13: 1836
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.21.14"
+Release: v1.21.14
+Downloads for v1.21.14: 3812
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.20.0"
+Release: v1.20.0
+Downloads for v1.20.0: 2527
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.20.1"
+Release: v1.20.1
+Downloads for v1.20.1: 2252
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.20.2"
+Release: v1.20.2
+Downloads for v1.20.2: 2701
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.20.3"
+Release: v1.20.3
+Downloads for v1.20.3: 2160
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.20.4"
+Release: v1.20.4
+Downloads for v1.20.4: 48050
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.20.5"
+Release: v1.20.5
+Downloads for v1.20.5: 2171
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.20.6"
+Release: v1.20.6
+Downloads for v1.20.6: 2512
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.20.7"
+Release: v1.20.7
+Downloads for v1.20.7: 1334
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.20.8"
+Release: v1.20.8
+Downloads for v1.20.8: 1273
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.20.9"
+Release: v1.20.9
+Downloads for v1.20.9: 1820
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.20.10"
+Release: v1.20.10
+Downloads for v1.20.10: 2252
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.20.11"
+Release: v1.20.11
+Downloads for v1.20.11: 2157
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.20.12"
+Release: v1.20.12
+Downloads for v1.20.12: 2108
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.20.13"
+Release: v1.20.13
+Downloads for v1.20.13: 1820
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.20.14"
+Release: v1.20.14
+Downloads for v1.20.14: 1109
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.20.15"
+Release: v1.20.15
+Downloads for v1.20.15: 1115
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.19.0"
+Release: v1.19.0
+Downloads for v1.19.0: 3039
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.19.1"
+Release: v1.19.1
+Downloads for v1.19.1: 2363
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.19.2"
+Release: v1.19.2
+Downloads for v1.19.2: 2713
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.19.3"
+Release: v1.19.3
+Downloads for v1.19.3: 2538
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.19.4"
+Release: v1.19.4
+Downloads for v1.19.4: 2388
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.19.5"
+Release: v1.19.5
+Downloads for v1.19.5: 2198
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.19.6"
+Release: v1.19.6
+Downloads for v1.19.6: 2133
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.19.7"
+Release: v1.19.7
+Downloads for v1.19.7: 2192
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.19.8"
+Release: v1.19.8
+Downloads for v1.19.8: 2212
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.19.9"
+Release: v1.19.9
+Downloads for v1.19.9: 1939
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.19.10"
+Release: v1.19.10
+Downloads for v1.19.10: 2406
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.19.11"
+Release: v1.19.11
+Downloads for v1.19.11: 1456
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.19.12"
+Release: v1.19.12
+Downloads for v1.19.12: 1539
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.19.13"
+Release: v1.19.13
+Downloads for v1.19.13: 1790
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.19.14"
+Release: v1.19.14
+Downloads for v1.19.14: 2190
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.19.15"
+Release: v1.19.15
+Downloads for v1.19.15: 2110
+Command executed: curl -H "Authorization: token your_token" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/kubernetes/kubernetes/releases/tags/v1.19.16"
+Release: v1.19.16
+Downloads for v1.19.16: 2252
 
-Total Downloads for v1.22.0 to v1.22.15: 24606
+Total Downloads for v1.22.0 to v1.22.15: 24612
+Total Downloads for v1.21.0 to v1.21.14: 27222
+Total Downloads for v1.20.0 to v1.20.15: 77361
+Total Downloads for v1.19.0 to v1.19.16: 37458
